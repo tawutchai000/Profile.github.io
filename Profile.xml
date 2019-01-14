@@ -1,13 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Profile>
-	<MEProfile>
-  		<name>ธวัชชัย หมู่ศิริ</name>
+	<name>ธวัชชัย หมู่ศิริ</name>
   		<ID>601102104</ID>
   		<Branch>Computer Science</Branch>
   		<birthday>11/07/1998</birthday>
   		<Ilike>
 			<food>อ่อมเนื้อ</food>
     			<sport>Table tennis</sport>
-  		</Ilike>
-	</MEProfile>
+ 	</Ilike>
 </Profile>
