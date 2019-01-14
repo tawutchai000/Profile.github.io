@@ -3,10 +3,8 @@
 <body style="font-family:Arial;font-size:12pt;background-color:#EEEEEE">
 <xsl:select="Profile/MEProfile">
   <div style="background-color:teal;color:white;padding:4px">
-     <p>
+     <span style="font-weight:bold"><xsl:value-of select="Profile"/> - </span>
     <xsl:value-of select="MEProfile"/>
-    <span style="font-style:italic"> (<xsl:value-of select="MEProfile">)</span>
-    </p>
   </div>
 </xsl:>
 </body>
