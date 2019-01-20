@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="https://github.com/tawutchai000/Profile.github.io/edit/master/Profile.xml">
+<xsl:template match="/">	
 	<html>
 		
 <body style="font-family:Arial;font-size:12pt;background-color:#EEEEEE">
 <xsl:for-each select="Profile">
-	<xsl:template match="/">
+	
 	
   	<div style="background-color:teal;color:white;padding:4px">
      	<span style="font-weight:bold">
@@ -23,6 +24,8 @@
 	     </Profile>
 	</span>
     	</div>
-</xsl:>
+
 </body>
 </html>
+</xsl:template>
+</xsl:stylesheet>
