@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <html xsl:version="1.0" xmlns:xsl="https://tawutchai000.github.io/Profile.github.io/Profile.xml">
+	<xsl:template match="/">
 <body style="font-family:Arial;font-size:12pt;background-color:#EEEEEE">
 <xsl:for-each select="Profile">
   <div style="background-color:teal;color:white;padding:4px">
      <span style="font-weight:bold">
 	     <Profile>
 		     <h2>Name</h2>
-		     	<name>ธวัชชัย หมู่ศิริ</name>
+		     	<td><xsl:value-of select="name"/></td><name>ธวัชชัย หมู่ศิริ</name>
 		      <h2>My ID</h2>
-  			<ID>601102104</ID>
+  			<td><xsl:value-of select="ID"/></td><ID>601102104</ID>
 		      <h2>Branch</h2>
-  			<Branch>birthday</Branch>
+  			<td><xsl:value-of select="Branch"/></td><Branch>birthday</Branch>
 		      <h2>My CD Collection</h2>
-  			<birthday>11/07/1998</birthday>
+  			<td><xsl:value-of select="birthday"/></td><birthday>11/07/1998</birthday>
 		      <h2>I like</h2>
-  		<Ilike>
+  		<td><xsl:value-of select="Ilike"/></td>
+		<Ilike>
 			<food>อ่อมเนื้อ</food>
     			<sport>Table tennis</sport>
  		</Ilike>
